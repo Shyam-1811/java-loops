@@ -5,7 +5,7 @@ public class table19 {
         Scanner sc = new Scanner(System.in);
             System.out.println("Enter  the number : ");
             int n = sc.nextInt();
-            for(int i = 0; i < n; i+=19)
+            for(int i = 19; i < n; i+=19)
             System.out.println(i);
     }
   
